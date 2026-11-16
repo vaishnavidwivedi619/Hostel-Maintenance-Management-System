@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hostel Maintenance Management System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<dialog id="resetDialog" aria-labelledby="resetTitle">
+  <h2 id="resetTitle">Reset demo data?</h2>
+  <p>All complaints, status changes and notifications will be replaced with the original 15 sample tickets. This can’t be undone.</p>
+  <div class="form-actions">
+    <button class="btn btn-danger" data-action="reset-confirm">Reset data</button>
+    <button class="btn btn-ghost" data-action="reset-cancel">Cancel</button>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
